@@ -1,12 +1,16 @@
 import React from "react";
-import profile from "./../assets/my_profile.png";
 import logo from "./../assets/logo.png";
+import "./../index.css";
 export const Header = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-light bg-opacity-10">
+    <nav className="navbar navbar-expand-md navbar-light t">
       <div className="container">
-        <a className="navbar-brand nav-font" href="#">
-          <img src={logo} altwidth="80px" alt="logo" />
+        <a
+          className="navbar-brand nav-font"
+          href="https://github.com/Pradeep22222"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github github"></i>
         </a>
         <button
           className="navbar-toggler"
@@ -26,14 +30,19 @@ export const Header = () => {
         >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#skills">
+              <a
+                className="section nav-link active  p-1 m-1
+                "
+                aria-current="page"
+                href="#skills"
+              >
                 Skills
               </a>
             </li>
 
-            <li className="nav-item">
+            <li className=" nav-item">
               <a
-                className="nav-link active"
+                className=" section nav-link active  p-1 m-1"
                 aria-current="page"
                 href="#projects"
               >
@@ -42,14 +51,18 @@ export const Header = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#about">
+              <a
+                className=" section nav-link active p-1 m-1"
+                aria-current="page"
+                href="#about"
+              >
                 About Me
               </a>
             </li>
 
             <li className="nav-item">
               <a
-                className="nav-link active"
+                className=" section nav-link active  p-1 m-1"
                 aria-current="page"
                 href="#contact"
               >

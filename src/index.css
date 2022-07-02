@@ -1,3 +1,5 @@
+/* colors */
+/*B3E8E5,82DBD8, 3BACB6 ,2F8F9D     */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,20 +12,129 @@ body {
 body {
   font-family: "Inria Serif", serif;
   font-size: 1.3rem;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #b3e8e5;
 }
 
 .nav-font {
   font-family: "Inknut Antiqua", serif;
 }
+@keyframes wave {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  5% {
+    left: 2px;
+    top: -2px;
+  }
+  10% {
+    left: 4px;
+    top: -4px;
+  }
+  15% {
+    left: 6px;
+    top: -6px;
+  }
+  20% {
+    left: 8px;
+    top: -8px;
+  }
 
+  25% {
+    left: 10px;
+    top: -10px;
+  }
+  30% {
+    left: 8px;
+    top: -8px;
+  }
+  35% {
+    left: 6px;
+    top: -6px;
+  }
+  40% {
+    left: 4px;
+    top: -4px;
+  }
+  45% {
+    left: 2px;
+    top: -2px;
+  }
+  50% {
+    left: 0;
+    top: 0;
+  }
+  55% {
+    left: -2px;
+    top: 2px;
+  }
+  60% {
+    left: -4px;
+    top: 4px;
+  }
+  65% {
+    left: -6px;
+    top: 6px;
+  }
+  70% {
+    left: -8px;
+    top: 8px;
+  }
+  75% {
+    left: -10px;
+    top: 10px;
+  }
+  80% {
+    left: -8px;
+    top: 8px;
+  }
+  85% {
+    left: -6px;
+    top: 6px;
+  }
+  90% {
+    left: -4px;
+    top: 4px;
+  }
+  95% {
+    left: -2px;
+    top: 2px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+@keyframes name {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+    color: #2f8f9d;
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    color: black;
+  }
+}
 /* hero section */
 
 .hero {
   min-height: 60vh;
   font-weight: 600;
-  background: linear-gradient(90.04deg, #4cb632 0.04%, #ada939 99.97%);
 }
-
+.description {
+  background-color: #82dbd8;
+  width: 100%;
+  border-radius: 31px;
+}
 /* titles */
 .title {
   text-align: center;
@@ -51,7 +162,7 @@ body {
 
 /* project section */
 .projects {
-  background: #485303;
+  background: #3bacb6;
 }
 
 .projects .row {
@@ -69,10 +180,73 @@ body {
 /* about me section */
 
 .about {
-  background: rgba(96, 165, 27, 0.26);
+  background: #2f8f9d;
   border-radius: 31px;
 }
 
 .tilt {
   transform: rotate(-11deg);
+}
+.logo {
+  width: 6rem;
+  border-radius: 100% 0% 100% 0% / 36% 59% 41% 64%;
+  opacity: 0.8;
+}
+.contact {
+  background: #ffeead;
+  border-radius: 31px;
+}
+.section {
+  transition: all 0.3s;
+  display: inline-block;
+  border-radius: 100% 0% 100% 0% / 36% 59% 41% 64%;
+}
+.section:hover {
+  transform: scale(1.1);
+  background-color: #42d7ee81;
+}
+.skills_pic {
+  width: 5rem;
+}
+.adobe_pic {
+  margin-left: 3rem;
+}
+.github {
+  font-size: 4rem;
+  color: #059c97;
+  transition: all 0.3s;
+  border-radius: 100% 0% 100% 0% / 36% 59% 41% 64%;
+  padding: 0.5rem;
+}
+.github:hover {
+  color: black;
+  background-color: #82dbd8;
+}
+.color_pink {
+  color: rgb(247, 108, 131);
+}
+.contact_icon {
+  opacity: 0.8;
+  transition: all 0.3s;
+  font-size: 5rem;
+  border-radius: 100% 0% 100% 0% / 36% 59% 41% 64%;
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+}
+.contact_icon:hover {
+  opacity: 1;
+  background-color: #82dbd8;
+}
+.hi {
+  font-size: 2rem;
+}
+.wave {
+  transition: all;
+  position: relative;
+  margin: 0 1rem;
+  animation-name: wave;
+  animation-duration: 1s;
+}
+.name {
+  transition: all;
+  animation: name 1s ease-in;
 }
