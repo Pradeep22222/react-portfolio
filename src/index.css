@@ -3,19 +3,13 @@
 @media (max-width: 48em) {
   html {
     /* 9px / 16px  */
-    font-size: 66.66%;
+    font-size: 90%;
   }
 }
 @media (max-width: 36em) {
   .about_row {
     display: flex;
     flex-direction: column;
-  }
-}
-@media (max-width: 25em) {
-  html {
-    /* 9px / 16px  */
-    font-size: 56.25%;
   }
 }
 
