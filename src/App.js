@@ -1,13 +1,11 @@
-import "./App.css";
-import profile from "./assets/my_profile.png";
-
-import calculator from "./assets/calculator.png";
 import { Header } from "./Components/Header";
 import { Description } from "./Components/Description";
 import { Skills } from "./Components/Skills";
 import { Projects } from "./Components/Projects";
 import { AboutMe } from "./Components/AboutMe";
 import { Contact } from "./Components/Contact";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (

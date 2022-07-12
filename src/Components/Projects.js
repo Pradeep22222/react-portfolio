@@ -1,6 +1,9 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Button from "react-bootstrap/Button";
 
-import calculator from "./../assets/calculator.png";
 export const Projects = () => {
   return (
     <div>
@@ -9,77 +12,136 @@ export const Projects = () => {
           <span>Projects</span>
         </div>
         <div className="container">
-          <div className="row">
-            <div className="col-md">
-              <img src={calculator} width="100%" height="auto" alt="" />
-            </div>
-            <div className="col-md c-p pt-5 text-light">
-              <div className="p-4">
-                <h2 className="fw-bolder">My Portfolio Website</h2>
-                <div>
-                  <a href="">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a href="">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  odio repudiandae in excepturi eligendi facere aspernatur
-                  voluptatum quasi esse praesentium nostrum saepe nam
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="row mt-4 mt-md-0">
-            <div className="col-md order-md-2">
-              <img src={calculator} width="100%" height="auto" alt="" />
-            </div>
-            <div className="col-md c-p pt-5 text-light bg-primary">
-              <div className="p-4">
-                <h2 className="fw-bolder">My Portfolio Website</h2>
-                <div>
-                  <a href="">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a href="">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  odio repudiandae in excepturi eligendi facere aspernatur
-                  voluptatum quasi esse praesentium nostrum saepe nam
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="row mt-4 mt-md-0">
-            <div className="col-md">
-              <img src={calculator} width="100%" height="auto" alt="" />
-            </div>
-            <div className="col-md c-p pt-5 bg-warning">
-              <div className="p-4">
-                <h2 className="fw-bolder">My Portfolio Website</h2>
-                <div>
-                  <a href="">
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a href="">
-                    <i className="fa-brands fa-chrome"></i>
-                  </a>
-                </div>
-                <p className="mt-2">Tech used: HTML5, CSS3</p>
-                <p>
-                  odio repudiandae in excepturi eligendi facere aspernatur
-                  voluptatum quasi esse praesentium nostrum saepe nam
-                </p>
-              </div>
-            </div>
-          </div>
+          <Row className="d-flex justify-content-start ">
+            <Col lg={6} className="mt-3">
+              <Card className="projects_card">
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/PixTybFj5i8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title> Not To Do List / React</Card.Title>
+                  <hr></hr>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={6} className="mt-3">
+              <Card>
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/xaN55pePRb0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>Country Info / React</Card.Title>
+                  <hr></hr>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={6} className="mt-3">
+              <Card>
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/jtWIaMGLy8o"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>Movie Album / React</Card.Title>
+                  <hr className="project_hr" />
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={6} className="mt-3">
+              <Card>
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/Yb_aa_F-1hU"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>Calculator / React</Card.Title>
+                  <hr></hr>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={6} className="mt-3">
+              <Card>
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/WGSFmQZlww8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>Down Syndrome / Queensland</Card.Title>
+                  <hr></hr>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mt-3">
+              <Card>
+                <iframe
+                  height="500"
+                  src="https://www.youtube-nocookie.com/embed/qQoR-N0m2ls"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>
+                    Oasis Fancy Collection / Just HTML and CSS
+                  </Card.Title>
+                  <hr></hr>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </section>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./../assets/my_profile.png";
+import profileAbout from "./../assets/profile_about.png";
 
 export const AboutMe = () => {
   return (
@@ -8,10 +8,9 @@ export const AboutMe = () => {
         <div className="title">
           <span>About Me</span>
         </div>
-
         <div className="row mt-5">
           <div className="col">
-            <img className="tilt" src={profile} alt="" />
+            <img className="tilt about_pic" src={profileAbout} alt="" />
           </div>
           <div className="col">
             <p>

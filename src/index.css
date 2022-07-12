@@ -165,18 +165,6 @@ body {
   background: #3bacb6;
 }
 
-.projects .row {
-  --bs-gutter-x: 0;
-}
-.c-p {
-  background: rgba(197, 0, 230, 0.59);
-}
-
-.projects a {
-  color: #fff;
-  text-decoration: none;
-}
-
 /* about me section */
 
 .about {
@@ -249,4 +237,26 @@ body {
 .name {
   transition: all;
   animation: name 1s ease-in;
+}
+.about_pic {
+  width: 40rem;
+}
+
+.kill_link,
+.kill_link:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.hire_button {
+  background-color: #2f8f9d;
+  transition: all 0.3s ease-out;
+  backface-visibility: hidden;
+}
+.hire_button:hover {
+  transform: scale(1.07);
+}
+.project_hr {
+  height: 0.5rem;
 }

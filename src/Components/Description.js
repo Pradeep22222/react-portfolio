@@ -19,8 +19,10 @@ export const Description = () => {
               Mern Stack technology for full stack web app development bootcamp
               at dented code.
             </p>
-            <button className="btn btn-danger">
-              Download Resume <i className="fa-solid fa-download"></i>
+            <button className="btn hire_button">
+              <a href="mailto:pradeepdhital124@gmail.com" className="kill_link">
+                Hire Me
+              </a>
             </button>
           </div>
         </div>
