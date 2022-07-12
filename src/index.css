@@ -19,8 +19,8 @@
 @media (max-width: 30em) {
   .about_pic {
     /* 9px / 16px  */
-    width: 35rem;
-    margin-right: -5rem;
+
+    margin-left: -6rem;
   }
 }
 
