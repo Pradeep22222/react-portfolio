@@ -5,6 +5,10 @@
     /* 9px / 16px  */
     font-size: 90%;
   }
+  .about_row {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 36em) {
   .about_row {
