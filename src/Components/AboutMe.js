@@ -14,14 +14,16 @@ export const AboutMe = () => {
           </div>
           <div className="col">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              mollitia atque natus sed assumenda sunt quia modi dolore, laborum,
-              accusantium ab placeat repudiandae consequuntur beatae dolor
-              magni. Tenetur, accusantium fugiat?
+              I am an international student currently at last trimester of my
+              bachelor degree. I have a great passion on development. I have
+              been actively learning programming for last couple of years. I
+              have currently enrolled a MERN full stack webdevelpment bootcamp
+              at Dented Code. I am looking for landing in my first web
+              develpment job.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
-              consectetur porro, incidunt aliquid error amet.
+              Please feel free to reach out to me if I look a suitable candidate
+              to proceed the application ahead.
             </p>
           </div>
         </div>
