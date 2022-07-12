@@ -1,11 +1,24 @@
 /* colors */
 /*B3E8E5,82DBD8, 3BACB6 ,2F8F9D     */
-@media (max-width: 25rem) {
+@media (max-width: 48em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 66.66%;
+  }
+}
+@media (max-width: 36em) {
+  .about_row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 25em) {
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
   }
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -269,4 +282,7 @@ body {
 .project_text {
   text-align: start;
   font-size: 1.2rem;
+}
+.project_text_human {
+  padding-bottom: 5.5rem;
 }

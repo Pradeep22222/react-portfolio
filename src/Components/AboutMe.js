@@ -8,11 +8,11 @@ export const AboutMe = () => {
         <div className="title">
           <span>About Me</span>
         </div>
-        <div className="row mt-5">
+        <div className=" about_row row mt-5">
           <div className="col">
             <img className="tilt about_pic" src={profileAbout} alt="" />
           </div>
-          <div className="col">
+          <div className="col mt-3">
             <p>
               I am an international student currently at last trimester of my
               bachelor degree. I have a great passion on development. I have

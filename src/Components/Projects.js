@@ -114,8 +114,9 @@ export const Projects = () => {
                   <hr></hr>
                   <Card.Text className="project_text">
                     It is a real life project I am developing for Down Syndrome
-                    Queensland for my Project 2 for the bachelor degeree
-                    completion. It is still on going, and has a lot to fix. The
+                    Queensland. It is a part of the curriculum that we develop a
+                    programme for a real client upon their request and
+                    necessities. It is still on going, and has a lot to fix. The
                     main feature to be applied is the event booking for the
                     events the organization on different occasion. The languages
                     used are HTML, CSS and JavaScript. Sass was used for the CSS
@@ -141,13 +142,11 @@ export const Projects = () => {
                     Oasis Fancy Collection / Just HTML and CSS
                   </Card.Title>
                   <hr></hr>
-                  <Card.Text className="project_text">
+                  <Card.Text className="project_text project_text_human">
                     Is was a simple website I built for one of my subject, Human
                     Computer Interaction in Bachelor Degree. It us just built by
                     Html, CSS and I used Saas for css compilation. On this
                     project I got a chance to learn HTML and CSS in details.
-                    <div>&nbsp;</div>
-                    <div>&nbsp;</div>
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
