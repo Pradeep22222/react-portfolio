@@ -17,7 +17,7 @@
   }
 }
 @media (max-width: 30em) {
-  html {
+  .about_pic {
     /* 9px / 16px  */
     font-size: 60%;
   }
