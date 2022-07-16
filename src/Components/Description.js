@@ -10,7 +10,7 @@ export const Description = () => {
           </div>
           <div className="col-md-7 mt-5 ">
             <p className="hi ">
-              hi <span className="wave">👋</span> i'm
+              Hi <span className="wave">👋</span> I'm
             </p>
             <div className="fs-1 fw-bolder mb-4 name">Pradeep Kumar Dhital</div>
             <p>

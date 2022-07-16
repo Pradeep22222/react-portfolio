@@ -226,8 +226,8 @@ body {
 .skills_pic {
   width: 5rem;
 }
-.adobe_pic {
-  margin-left: 3rem;
+.mongo_pic {
+  width: 6rem;
 }
 .github {
   font-size: 4rem;
@@ -296,4 +296,28 @@ body {
 }
 .project_text_human {
   padding-bottom: 5.5rem;
+}
+.skill_div {
+  transition: all 0.3s;
+}
+.skill_div:hover {
+  transform: scale(1.1);
+}
+/* .text_react,
+.text_sass {
+  margin-left: 1rem;
+}
+.text_node,
+.text_mongo,
+.text_adobe {
+  margin-left: -2rem;
+} */
+.text_mongo {
+  display: inline-block;
+  margin-top: -1rem;
+}
+.skill_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

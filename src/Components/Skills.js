@@ -1,6 +1,8 @@
 import React from "react";
 import adobe from "./../assets/adobe.png";
-import mongo from "./../assets/Mongo.png";
+import mongo from "./../assets/mongodb.png";
+import rest from "./../assets/restapi.png";
+
 import "./../index.css";
 export const Skills = () => {
   return (
@@ -15,32 +17,51 @@ export const Skills = () => {
 
             {/* <!-- icons --> */}
             <div className="icons fw-bolder d-flex flex-wrap justify-content-around">
-              <div>
-                <i className="fa-brands fa-html5 text-warning"></i> HTML5
+              <div className="skill_div">
+                <i className="fa-brands fa-html5 text-warning"></i>
+                <span>HTML5</span>
               </div>
-              <div>
-                <i className="fa-brands fa-css3-alt text-primary"></i> CSS3
+              <div className="skill_div">
+                <i className="fa-brands fa-css3-alt text-primary"></i>
+                <span>CSS3</span>
               </div>
-              <div>
-                <i className="fa-brands fa-js-square text-warning"></i>{" "}
-                JavaScript
+              <div className="skill_div">
+                <i className="fa-brands fa-js-square text-warning"></i>
+                <span>JavaScript</span>
               </div>
-              <div>
-                <i className="fa-brands fa-bootstrap text-primary"></i>{" "}
-                Bootstrap
+              <div className="skill_div">
+                <i className="fa-brands fa-bootstrap text-primary"></i>
+                <span>Bootstrap</span>
               </div>
-              <div>
-                <i className="fa-brands fa-react text-info"></i> react
+              <div className="skill_div">
+                <i className="fa-brands fa-react text-info"></i>
+                <span class="text_react">React</span>
               </div>
-              <div>
-                <i className="fa-brands fa-github-square"></i> Github
+              <div className="skill_div">
+                <i className="fa-brands fa-github-square"></i>
+                <span>Github</span>
               </div>
-              <div>
-                <i className="fa-brands fa-sass  color_pink"></i> sass
+              <div className="skill_div">
+                <i className="fa-brands fa-sass  color_pink"></i>
+                <span class="text_sass">Saas</span>
               </div>
-              <div>
+              <div className="skill_div">
+                <i class="fa-brands fa-node text-success skill_div_item"></i>
+                <span class="text_node d-inline-block skill_div_item">
+                  NodeJS with ExpressJS
+                </span>
+              </div>
+              <div className="skill_div">
+                <img src={rest} alt="" className="skills_pic rest_pic" />
+                <span class="">REST API</span>
+              </div>
+              <div className="skill_div">
+                <img src={mongo} alt="" className="skills_pic mongo_pic" />
+                <span class="text_mongo">MongoDB with mongoose</span>
+              </div>
+              <div className="skill_div">
                 <img src={adobe} alt="" className="skills_pic adobe_pic" />
-                <p calssName="adobe-para">adobe photoshop</p>
+                <span class="text_adobe">Adobe Photoshop</span>
               </div>
             </div>
           </div>
