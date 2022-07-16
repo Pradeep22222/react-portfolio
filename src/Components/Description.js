@@ -29,10 +29,7 @@ export const Description = () => {
                 </a>
               </button>
               <button className="btn button_resume">
-                <a
-                  href="mailto:pradeepdhital124@gmail.com"
-                  className="kill_link"
-                >
+                <a href="#" className="kill_link">
                   Download Resume
                 </a>
               </button>
