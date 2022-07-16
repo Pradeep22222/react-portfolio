@@ -1,5 +1,6 @@
 /* colors */
 /*B3E8E5,82DBD8, 3BACB6 ,2F8F9D     */
+
 @media (max-width: 48em) {
   html {
     /* 9px / 16px  */
@@ -278,13 +279,26 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
 }
-
-.hire_button {
+.descriptionButtons_div {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+.button_hire {
   background-color: #2f8f9d;
   transition: all 0.3s ease-out;
   backface-visibility: hidden;
+  padding: 0.4rem 4rem 0.4rem 4rem;
 }
-.hire_button:hover {
+.button_hire:hover {
+  transform: scale(1.07);
+}
+.button_resume {
+  background-color: #9d4f0a7d;
+  transition: all 0.3s ease-out;
+  backface-visibility: hidden;
+}
+.button_resume:hover {
   transform: scale(1.07);
 }
 .projects_card {

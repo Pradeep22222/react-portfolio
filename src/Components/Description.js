@@ -19,11 +19,24 @@ export const Description = () => {
               Mern Stack technology for full stack web app development bootcamp
               at dented code.
             </p>
-            <button className="btn hire_button">
-              <a href="mailto:pradeepdhital124@gmail.com" className="kill_link">
-                Hire Me
-              </a>
-            </button>
+            <div class="descriptionButtons_div">
+              <button className="btn button_hire">
+                <a
+                  href="mailto:pradeepdhital124@gmail.com"
+                  className="kill_link"
+                >
+                  Hire Me
+                </a>
+              </button>
+              <button className="btn button_resume">
+                <a
+                  href="mailto:pradeepdhital124@gmail.com"
+                  className="kill_link"
+                >
+                  Download Resume
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
