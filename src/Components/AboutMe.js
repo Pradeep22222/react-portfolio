@@ -8,7 +8,7 @@ export const AboutMe = () => {
         <div className="title">
           <span>About Me</span>
         </div>
-        <div className=" about_row row mt-5">
+        <div className=" about_row about row mt-5">
           <div className="col">
             <img className="tilt about_pic" src={profileAbout} alt="" />
           </div>
