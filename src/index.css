@@ -1,36 +1,6 @@
 /* colors */
 /*B3E8E5,82DBD8, 3BACB6 ,2F8F9D     */
 
-@media (max-width: 48em) {
-  html {
-    /* 9px / 16px  */
-    font-size: 90%;
-  }
-  .about_row {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 36em) {
-  .about_row {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 30em) {
-  .about_pic {
-    /* 9px / 16px  */
-
-    margin-left: -6rem;
-  }
-}
-@media (max-width: 25em) {
-  html {
-    /* 9px / 16px  */
-    font-size: 66%;
-  }
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -279,28 +249,16 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
 }
-.descriptionButtons_div {
-  display: flex;
-  gap: 3rem;
-  align-items: flex-start;
-}
+
 .button_hire {
   background-color: #2f8f9d;
   transition: all 0.3s ease-out;
   backface-visibility: hidden;
-  padding: 0.4rem 4rem 0.4rem 4rem;
 }
 .button_hire:hover {
   transform: scale(1.07);
 }
-.button_resume {
-  background-color: #9d4f0a7d;
-  transition: all 0.3s ease-out;
-  backface-visibility: hidden;
-}
-.button_resume:hover {
-  transform: scale(1.07);
-}
+
 .projects_card {
   background-color: #c3f5f3d4;
 }
@@ -334,4 +292,56 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.description_img {
+  width: 35rem;
+}
+@media (max-width: 75em) {
+  .description_img {
+    margin: 3rem -6rem;
+  }
+}
+@media (max-width: 62em) {
+  .description_img {
+    width: 30rem;
+    margin: 3rem -8rem;
+  }
+  .last_name {
+    display: none;
+  }
+}
+@media (max-width: 48em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 90%;
+  }
+  .about_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .description_img {
+    margin: 0 auto;
+  }
+  .last_name {
+    display: inline;
+  }
+}
+@media (max-width: 36em) {
+  .about_row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 30em) {
+  .about_pic {
+    /* 9px / 16px  */
+
+    margin-left: -6rem;
+  }
+}
+@media (max-width: 25em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 66%;
+  }
 }
