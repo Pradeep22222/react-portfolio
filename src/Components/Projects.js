@@ -127,7 +127,7 @@ export const Projects = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="mt-3">
+            <Col lg={6} className="mt-3">
               <Card className="projects_card">
                 <iframe
                   height="500"
@@ -147,6 +147,31 @@ export const Projects = () => {
                     Computer Interaction in Bachelor Degree. It us just built by
                     Html, CSS and I used Saas for css compilation. On this
                     project I got a chance to learn HTML and CSS in details.
+                  </Card.Text>
+                  {/* <Button variant="primary">Go somewhere</Button> */}
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={6} className="mt-3">
+              <Card className="projects_card">
+                <iframe
+                  height="500"
+                  src="https://www.youtube.com/embed/nDeLZu49BCk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Card.Body>
+                  <Card.Title>
+                    Expenses Tracker / Full Stack/ Multiple Users/ Hosted on
+                    Heroku
+                  </Card.Title>
+                  <hr></hr>
+                  <Card.Text className="project_text project_text_human">
+                    It is a full stack multiple user react app build using
+                    NodeJs with expressJs on backend and MongoDB with Mongoose
+                    for the database.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
