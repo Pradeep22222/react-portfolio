@@ -103,7 +103,7 @@ export const Projects = () => {
               <Card className="projects_card">
                 <iframe
                   height="500"
-                  src="https://www.youtube-nocookie.com/embed/WGSFmQZlww8"
+                  src="https://www.youtube.com/embed/0xIP6GaDbNI"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
