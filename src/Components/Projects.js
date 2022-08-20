@@ -27,7 +27,7 @@ export const Projects = () => {
                   <Card.Title> Not To Do List / React</Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text">
-                    Main technologies used are handling states, properties
+                    Main tasks are  states handling, properties
                     delegation, switching, deleting etc.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -48,7 +48,7 @@ export const Projects = () => {
                   <Card.Title>Country Info / React</Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text">
-                    Main task was state handling, calling API, storing and
+                    Main tasks are state handling, calling API, storing and
                     accessing data, error hadnling etc.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -69,9 +69,9 @@ export const Projects = () => {
                   <Card.Title>Movie Album / React</Card.Title>
                   <hr />
                   <Card.Text className="project_text">
-                    Main task was state handling, calling API, storing and
+                    Main tasks state handling, calling API, storing and
                     accessing data, error hadnling etc, setting up categories,
-                    switching categories, grid and list view etc
+                    switching categories, grid and list view etc.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
@@ -116,11 +116,10 @@ export const Projects = () => {
                     It is a real life project I am developing for Down Syndrome
                     Queensland. It is a part of the curriculum that we develop a
                     programme for a real client upon their request and
-                    necessities. It is still on going, and has a lot to fix. The
-                    main feature to be applied is the event booking for the
-                    events the organization on different occasion. The languages
+                    necessities. It is still on going, and has a lot to do. The
+                    main feature to be applied is the event booking with the help of a calendar the organization organize on different occasion. The languages
                     used are HTML, CSS and JavaScript. Sass was used for the CSS
-                    compilation
+                    compilation.
                   </Card.Text>
 
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -145,8 +144,8 @@ export const Projects = () => {
                   <Card.Text className="project_text project_text_human">
                     Is was a simple website I built for one of my subject, Human
                     Computer Interaction in Bachelor Degree. It us just built by
-                    Html, CSS and I used Saas for css compilation. On this
-                    project I got a chance to learn HTML and CSS in details.
+                    Html, CSS and I used Saas for CSS compilation. On this
+                    project I got a chance to learn HTML and CSS in much more details.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
@@ -169,7 +168,7 @@ export const Projects = () => {
                   </Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text project_text_human">
-                    It is a full stack multiple user react app build using
+                    It is a full stack multiple user react app built using
                     NodeJs with expressJs on backend and MongoDB with Mongoose
                     for the database.
                   </Card.Text>

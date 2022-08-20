@@ -16,15 +16,13 @@ export const AboutMe = () => {
             <p>
               I am an international student currently at last trimester of my
               bachelor degree. I have a great passion on development. I have
-              been actively learning programming for last couple of years. I
-              have currently enrolled a MERN full stack webdevelpment bootcamp
-              at Dented Code. I am looking for landing in my first web
-              develpment job.
+              been actively learning web development for last couple of years. I
+              am currently enrolled in a MERN full stack webdevelpment bootcamp
+              at Dented Code which I am finishing by Mid-September. At the
+              moment I am seeking for webdevelpment internship with preference
+              on MERN stack.
             </p>
-            <p>
-              Please feel free to reach out to me if I look a suitable candidate
-              to proceed the application ahead.
-            </p>
+            <p>Please feel free to reach out to me if you have any opportunities for me.</p>
           </div>
         </div>
       </div>

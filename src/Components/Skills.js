@@ -34,16 +34,17 @@ export const Skills = () => {
                 <span>Bootstrap</span>
               </div>
               <div className="skill_div">
-                <i className="fa-brands fa-react text-info"></i>
-                <span class="text_react">React</span>
+                <i className="fa-brands fa-sass  color_pink"></i>
+                <span class="text_sass">Saas</span>
               </div>
               <div className="skill_div">
                 <i className="fa-brands fa-github-square"></i>
                 <span>Github</span>
               </div>
+
               <div className="skill_div">
-                <i className="fa-brands fa-sass  color_pink"></i>
-                <span class="text_sass">Saas</span>
+                <i className="fa-brands fa-react text-info"></i>
+                <span class="text_react">React</span>
               </div>
               <div className="skill_div">
                 <i class="fa-brands fa-node text-success skill_div_item"></i>

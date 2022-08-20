@@ -20,13 +20,17 @@ export const Description = () => {
 
             <p>
               I am currently at last trimester of my bachelor degree. I have
-              been learning coding for couple of years and currently attending
-              Mern Stack technology for full stack web app development bootcamp
-              at dented code.
+              been learning webdevelpment for couple of years and currently
+              attending MERN Stack technology for full stack web app development
+              bootcamp at dented code.
+              <p>
+                At the moment I am seeking for webdevelpment internship with
+                preference on MERN stack
+              </p>
             </p>
             <button className="btn button_hire">
               <a href="mailto:pradeepdhital124@gmail.com" className="kill_link">
-                Hire Me
+                Email Me
               </a>
             </button>
           </div>
