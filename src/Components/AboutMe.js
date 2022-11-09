@@ -14,15 +14,13 @@ export const AboutMe = () => {
           </div>
           <div className="col mt-3">
             <p>
-              I am an international student currently at last trimester of my
-              bachelor degree. I have a great passion on development. I have
+              I am an international student who currently finished bachelor in Information Technology. I have a great passion on development. I have
               been actively learning web development for last couple of years. I
-              am currently enrolled in a MERN full stack webdevelpment bootcamp
-              at Dented Code which I am finishing by Mid-September. At the
-              moment I am seeking for webdevelpment internship with preference
+             just finished attending, MERN full stack webdevelpment bootcamp
+              at Dented Code. At the moment I am seeking for webdevelpment internship with preference
               on MERN stack.
             </p>
-            <p>Please feel free to reach out to me if you have any opportunities for me.</p>
+            <p>Please feel free to reach out to me if you have any opportunities available.</p>
           </div>
         </div>
       </div>

@@ -27,8 +27,8 @@ export const Projects = () => {
                   <Card.Title> Not To Do List / React</Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text">
-                    Main tasks are  states handling, properties
-                    delegation, switching, deleting etc.
+                    Main tasks are states handling, properties delegation,
+                    switching, deleting etc.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
@@ -69,8 +69,8 @@ export const Projects = () => {
                   <Card.Title>Movie Album / React</Card.Title>
                   <hr />
                   <Card.Text className="project_text">
-                    Main tasks state handling, calling API, storing and
-                    accessing data, error hadnling etc, setting up categories,
+                    Main tasks are state handling, calling API, storing and
+                    accessing data, error handling etc, setting up categories,
                     switching categories, grid and list view etc.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -113,13 +113,13 @@ export const Projects = () => {
                   <Card.Title>Down Syndrome / Queensland</Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text">
-                    It is a real life project I am developing for Down Syndrome
-                    Queensland. It is a part of the curriculum that we develop a
+                    It is a real life project I  developed for Down Syndrome
+                    Queensland. It was a part of the curriculum that we develop a
                     programme for a real client upon their request and
-                    necessities. It is still on going, and has a lot to do. The
-                    main feature to be applied is the event booking with the help of a calendar the organization organize on different occasion. The languages
-                    used are HTML, CSS and JavaScript. Sass was used for the CSS
-                    compilation.
+                    necessities. It has already been handed to the client but I am still voluntarily working to make it better. The
+                    main feature applied was event booking with the
+                    help of the calendar. The organization organizes different events on different dates, and the events were supposed to have different individual links and those links to be inserted on the calendar on the specific day day the event is on.  The languages used are HTML, CSS and JavaScript.
+                    Sass was used for the CSS compilation.
                   </Card.Text>
 
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -129,8 +129,8 @@ export const Projects = () => {
             <Col lg={6} className="mt-3">
               <Card className="projects_card">
                 <iframe
-                  height="500"
-                  src="https://www.youtube-nocookie.com/embed/qQoR-N0m2ls"
+                  width="500"
+                  src="https://www.youtube.com/embed/dlfuU8w5LnM"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -145,7 +145,8 @@ export const Projects = () => {
                     Is was a simple website I built for one of my subject, Human
                     Computer Interaction in Bachelor Degree. It us just built by
                     Html, CSS and I used Saas for CSS compilation. On this
-                    project I got a chance to learn HTML and CSS in much more details.
+                    project I got a chance to learn HTML and CSS in much more
+                    details.
                   </Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>

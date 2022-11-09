@@ -19,13 +19,13 @@ export const Description = () => {
             </div>
 
             <p>
-              I am currently at last trimester of my bachelor degree. I have
-              been learning webdevelpment for couple of years and currently
+              I just completed bachelor degree. I have
+              been learning webdevelpment for couple of years and currently finished 
               attending MERN Stack technology for full stack web app development
               bootcamp at dented code.
               <p>
                 At the moment I am seeking for webdevelpment internship with
-                preference on MERN stack
+                preference on MERN stack.
               </p>
             </p>
             <button className="btn button_hire">
