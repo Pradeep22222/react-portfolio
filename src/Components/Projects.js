@@ -102,8 +102,8 @@ export const Projects = () => {
             <Col lg={6} className="mt-3">
               <Card className="projects_card">
                 <iframe
-                  height="500"
-                  src="https://www.youtube.com/embed/0xIP6GaDbNI"
+                  width="500"
+                  src="https://www.youtube.com/embed/dlfuU8w5LnM"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -113,13 +113,18 @@ export const Projects = () => {
                   <Card.Title>Down Syndrome / Queensland</Card.Title>
                   <hr></hr>
                   <Card.Text className="project_text">
-                    It is a real life project I  developed for Down Syndrome
-                    Queensland. It was a part of the curriculum that we develop a
-                    programme for a real client upon their request and
-                    necessities. It has already been handed to the client but I am still voluntarily working to make it better. The
-                    main feature applied was event booking with the
-                    help of the calendar. The organization organizes different events on different dates, and the events were supposed to have different individual links and those links to be inserted on the calendar on the specific day day the event is on.  The languages used are HTML, CSS and JavaScript.
-                    Sass was used for the CSS compilation.
+                    It is a real life project I developed for Down Syndrome
+                    Queensland. It was a part of the curriculum that we develop
+                    a programme for a real client upon their request and
+                    necessities. It has already been handed to the client but I
+                    am still voluntarily working to make it better. The main
+                    feature applied was event booking with the help of the
+                    calendar. The organization organizes different events on
+                    different dates, and the events were supposed to have
+                    different individual links and those links to be inserted on
+                    the calendar on the specific day the event is on. The
+                    languages used are HTML, CSS and JavaScript. Sass was used
+                    for the CSS compilation.
                   </Card.Text>
 
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -130,7 +135,8 @@ export const Projects = () => {
               <Card className="projects_card">
                 <iframe
                   width="500"
-                  src="https://www.youtube.com/embed/dlfuU8w5LnM"
+                 
+                  src="https://www.youtube.com/embed/qQoR-N0m2ls"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
