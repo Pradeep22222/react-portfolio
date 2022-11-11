@@ -102,7 +102,7 @@ export const Projects = () => {
             <Col lg={6} className="mt-3">
               <Card className="projects_card">
                 <iframe
-                  width="500"
+                  height="500"
                   src="https://www.youtube.com/embed/dlfuU8w5LnM"
                   title="YouTube video player"
                   frameborder="0"
@@ -134,7 +134,7 @@ export const Projects = () => {
             <Col lg={6} className="mt-3">
               <Card className="projects_card">
                 <iframe
-                  width="500"
+                  height="500"
                  
                   src="https://www.youtube.com/embed/qQoR-N0m2ls"
                   title="YouTube video player"
