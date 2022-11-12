@@ -17,7 +17,7 @@ export const AboutMe = () => {
               I am an international student who currently finished bachelor in Information Technology. I have a great passion on development. I have
               been actively learning web development for last couple of years. I
              just finished attending, MERN full stack webdevelpment bootcamp
-              at Dented Code. At the moment I am seeking for webdevelpment internship with preference
+              at Dented Code Academy. At the moment I am seeking for web develpment internship with preference
               on MERN stack.
             </p>
             <p>Please feel free to reach out to me if you have any opportunities available.</p>

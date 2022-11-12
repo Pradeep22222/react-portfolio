@@ -149,7 +149,7 @@ export const Projects = () => {
                   <hr></hr>
                   <Card.Text className="project_text project_text_human">
                     Is was a simple website I built for one of my subject, Human
-                    Computer Interaction in Bachelor Degree. It us just built by
+                    Computer Interaction in Bachelor Degree. It was  built by just
                     Html, CSS and I used Saas for CSS compilation. On this
                     project I got a chance to learn HTML and CSS in much more
                     details.

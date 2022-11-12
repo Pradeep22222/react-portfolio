@@ -22,11 +22,11 @@ export const Description = () => {
               I just completed bachelor degree. I have
               been learning webdevelpment for couple of years and currently finished 
               attending MERN Stack technology for full stack web app development
-              bootcamp at dented code.
+              bootcamp at Dented Code Academy.
               <p>
-                At the moment I am seeking for webdevelpment internship with
+                At the moment I am seeking for web develpment internship with
                 preference on MERN stack.
-              </p>
+              </p> 
             </p>
             <button className="btn button_hire">
               <a href="mailto:pradeepdhital124@gmail.com" className="kill_link">
