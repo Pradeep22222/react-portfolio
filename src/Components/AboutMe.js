@@ -1,6 +1,6 @@
 import React from "react";
 import profileAbout from "./../assets/profile_about.png";
-
+import resume from "./../assets/Pradeep Kumar Dhital.pdf";
 export const AboutMe = () => {
   return (
     <div>
@@ -14,13 +14,22 @@ export const AboutMe = () => {
           </div>
           <div className="col mt-3">
             <p>
-              I am an international student who currently finished bachelor in Information Technology. I have a great passion on development. I have
-              been actively learning web development for last couple of years. I
-             just finished attending, MERN full stack webdevelpment bootcamp
-              at Dented Code Academy. At the moment I am seeking for web develpment internship with preference
-              on MERN stack.
+              I am an international student who currently finished bachelor in
+              Information Technology. I have a great passion on development. I
+              have been actively learning web development for last couple of
+              years. I just finished attending, MERN full stack webdevelpment
+              bootcamp at Dented Code Academy. At the moment I am seeking for
+              web develpment internship with preference on MERN stack.
             </p>
-            <p>Please feel free to reach out to me if you have any opportunities available.</p>
+            <p>
+              Feel free to contact me if you have any further questions you
+              would like to discuss.
+            </p>
+            <button className="btn button_hire">
+              <a href={resume} className="kill_link"  download>
+                Download resume
+              </a>
+            </button>
           </div>
         </div>
       </div>

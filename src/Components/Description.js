@@ -24,7 +24,7 @@ export const Description = () => {
               attending MERN Stack technology for full stack web app development
               bootcamp at Dented Code Academy.
               <p>
-                At the moment I am seeking for web develpment internship with
+                At the moment I am seeking for web develpment internship leading to employment with 
                 preference on MERN stack.
               </p> 
             </p>
