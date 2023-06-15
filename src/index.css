@@ -312,8 +312,7 @@ body {
 
 .description_img {
   width: 35rem;
-   transform:translate(-2rem, 2rem)
-  
+  transform: translate(-2rem, 2rem);
 }
 @media (max-width: 75em) {
   .description_img {
@@ -335,7 +334,6 @@ body {
   .about_pic {
     width: 35rem;
     margin-top: 0;
-
     margin-bottom: 1rem;
   }
   .about_main {
@@ -372,12 +370,14 @@ body {
     font-size: 3rem;
   }
   .about_pic {
-    margin: 0 auto;
+    margin-left: 3rem;
+    width: 25rem;
   }
 }
 @media (max-width: 30em) {
   .about_pic {
-    margin-left: -2rem;
+    margin-left: 2rem;
+    width: 25rem;
   }
 }
 @media (max-width: 25em) {
@@ -385,6 +385,6 @@ body {
     font-size: 66%;
   }
   .about_pic {
-    margin-left: 0;
+    margin-left: 2rem;
   }
 }
